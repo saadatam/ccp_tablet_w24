@@ -15,7 +15,7 @@ nav a{
 }
 .skipToMainContent {
   position: relative;
-  color: lightgray;
+  color: transparent;
   padding: 10px;
 }
 .skipToMainContent:focus{
@@ -35,10 +35,21 @@ nav a:active {
 
 .myGrid {
   display:grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:20px;
 }
 .myGrid img{
+  width: 100%; 
+  height: auto;
+  max-width: 100%;
+}
+
+.myGrid-travel {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.myGrid-travel img{
   width: 100%; 
   height: auto;
   max-width: 100%;

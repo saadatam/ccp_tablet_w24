@@ -3,3 +3,7 @@
     <li>Travel Locations</li>
     <li>Recipes </li>
 </ul>
+
+<div style="margin:auto; position: relative; width: 50%; padding-bottom: 40px; padding-top: 40px;"> 
+                <p style="margin:auto; position: relative; width: 80%; padding-bottom: 40px; "> Additional Locations.</p>
+            </div>
