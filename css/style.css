@@ -13,12 +13,12 @@ nav a{
   color: black;
   font-size: 20px;
 }
-.skipToMainContent {
+.skip-to-main-content {
   position: relative;
   color: transparent;
   padding: 10px;
 }
-.skipToMainContent:focus{
+.skip-to-main-content:focus{
   color:black;
   visibility: visible;
 }
@@ -28,29 +28,34 @@ nav a:active {
 
   font-weight:bold;
 }
-.linkActive{
+.link-active{
   color:darkblue;
   font-weight: bold;
 }
 
-.myGrid {
+.my-grid {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap:20px;
 }
-.myGrid img{
+.my-grid img{
   width: 100%; 
   height: auto;
   max-width: 100%;
 }
 
-.myGrid-travel {
+.my-grid-travel {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
 }
-.myGrid-travel img{
+.my-grid-travel img{
   width: 100%; 
   height: auto;
   max-width: 100%;
+}
+.my-grid-nav {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
 }
