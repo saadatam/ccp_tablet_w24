@@ -59,3 +59,16 @@ nav a:active {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
 }
+.nav-mobile{
+  width:auto;
+  height:auto;
+}
+
+@media screen and (max-width:768px){
+  .nav-mobile {
+    font-size: 30px ;
+  }
+  .link-active{
+    font-size:30px;
+  }
+}
