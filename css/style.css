@@ -54,21 +54,54 @@ nav a:active {
   height: auto;
   max-width: 100%;
 }
-.my-grid-nav {
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
 .nav-mobile{
   width:auto;
   height:auto;
 }
 
 @media screen and (max-width:768px){
+  /* Mobile Support */
   .nav-mobile {
     font-size: 30px ;
   }
   .link-active{
     font-size:30px;
   }
+}
+@media screen and (max-width:1024px){
+  h1{
+    font-size: 40px;
+  }
+  /* Tablet Support */
+  li {
+    font-size: 20px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .nav-mobile {
+    font-size: 30px ;
+  }
+  .link-active{
+    font-size:30px;
+  }
+  .my-grid-travel {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .my-grid-nav {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+  .my-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+  }
+  
 }
